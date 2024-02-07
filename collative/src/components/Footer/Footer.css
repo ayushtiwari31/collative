@@ -1,0 +1,112 @@
+.footer{
+    margin-top: 200px;
+   
+    
+}
+.upper-footer::before {
+    content: '';
+    position: absolute;
+    top: -10vh; /* Adjust distance from the top */
+    left: -10vh;
+    width: 110vw;
+    height: 20vh; /* Adjust height of the hemisphere */
+    border-top-left-radius: 90% 100px; /* Adjust to create hemisphere effect */
+    border-top-right-radius: 100% 200px; /* Adjust to create hemisphere effect */
+    background-color: black; /* Same as footer background */
+    z-index: -1;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    border-top: 2px solid grey;
+
+}
+.lower-footer span{
+    margin-left: 20px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+.upper-footer{
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+.upper-footer .second p{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5px;
+    font-size: 0.6rem;
+    font-weight: lighter;
+}
+.upper-footer .second .offer{
+   font-size: 1rem;
+   font-weight: bolder;
+   margin-bottom: 20px;
+
+}
+.upper-footer .fourth div{
+   display: flex;
+   align-items: center;
+}
+
+.upper-footer .fourth img{
+    background-color: aliceblue;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    margin: 10px;
+}
+.upper-footer .fourth p{
+font-size:0.6rem ;
+}
+.upper-footer .fourth .offer-add{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+.upper-footer .first{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.upper-footer .first p{
+    font-size: 0.7rem;
+    font-weight: lighter;
+    position: relative;
+    left: 75px;
+    line-height: 1.5;
+}
+
+.news{
+    position: relative;
+    left: 75px;
+    margin-top: 30px;
+
+}
+.news {
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+

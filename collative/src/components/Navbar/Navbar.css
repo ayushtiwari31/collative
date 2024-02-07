@@ -1,0 +1,68 @@
+.header{
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.n-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 3px;
+    width: 100vw;
+}
+
+.n-right ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.n-right ul li{
+    margin-right: 40px;
+    color: aliceblue;
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.n-right ul li:hover{
+    color: rgb(247, 218, 163);
+    cursor: pointer;
+}
+
+.n-right .n-name{
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+.logo{
+    scale: 0.5;
+}
+
+.number{
+    color:aliceblue;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.started{
+    color: black;
+    background-color: aliceblue;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.started:hover{
+   color: rgb(255, 38, 0);
+   /* font-size: 1rem; */
+}

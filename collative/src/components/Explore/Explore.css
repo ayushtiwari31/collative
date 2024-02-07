@@ -1,0 +1,53 @@
+.explore{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.explore img{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin: 90px;
+
+}
+.heading{
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+.sub-heading{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.sixth{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    margin: 90px;
+    align-items: center;
+    justify-content: center;
+    background-position: center
+}
+.img6l{
+    position: relative;
+    left: 6vw;
+}
+.img6r{
+   
+    position: relative;
+    right: 6vw;
+}
+
+.line{
+    position: absolute;
+    width: 10px;
+    height: 502vh;
+    background-color: rgb(18, 17, 17);
+    right: 49vw; 
+    z-index: 2;
+    top: 158vh;
+}

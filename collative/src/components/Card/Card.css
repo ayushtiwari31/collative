@@ -1,0 +1,46 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    height: 30vh;
+    width: 33vw;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.card span{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.para{
+    padding-left: 20px;
+}
+
+.profile{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.name{
+    margin-left: 20px;
+    font-size: smaller;
+    padding: 10px;
+    margin-top: 12px;
+}
+    
+.profile img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+

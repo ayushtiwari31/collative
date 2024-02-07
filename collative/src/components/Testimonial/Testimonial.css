@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    /* margin-top: 20vh; */
+    margin: 20px;
+}
+.upper{
+    display: flex;
+}
+
+.sub-heading{
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.heading{
+    font-style: italic;
+}
