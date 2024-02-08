@@ -124,9 +124,9 @@ justify-content: center;
         
     }
     .n-right ul li{
-        margin-right: 20px;
+        margin-right: 25px;
         color: aliceblue;
-        font-size: smaller;
+        font-size: 0.6rem;
         font-weight: lighter;
     }
   }
