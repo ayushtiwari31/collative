@@ -58,7 +58,7 @@
     .data{
         width: 100vw;
         padding: 1px;
-        top: -60px;
+        top: -50px;
         background-color: black;
         margin-top: 50px;
         padding-bottom: 10px;
@@ -68,6 +68,6 @@
     .form{
         right: -25vw;
         scale: 0.8;
-        top: -6vh;
+        top: -2vh;
     }
 }
