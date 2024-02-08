@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .card span{
         padding: 10px;
         font-size: 0.9rem;

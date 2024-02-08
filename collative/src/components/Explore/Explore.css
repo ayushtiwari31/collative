@@ -54,7 +54,7 @@
 
 
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .heading{
         font-size: 2rem;
     }
@@ -64,8 +64,8 @@
 
     .explore img{
        
-        width: 40vw;
-        height: 30vh;
+        width: 70vw;
+        height: 35vh;
         margin: 12px;
        opacity: 2;
     }
@@ -77,25 +77,27 @@
     
 .sixth{
    
-    width: 20vw;
-    height: 30vh;
+    width: 60vw;
+    height: 35vh;
     margin: 10px;
-    
+    margin-left: 10vw;
+    margin-left: -0vw;
 }
 
 .sixth .img6l{
    left: 2vw;
-    width: 20vw;
+    width: 35vw;
     
-    height: 30vh;
+    height: 35vh;
+   
 }
 
 .sixth .img6r{
    
     
     right: 2vw;
-    width: 20vw;
-    height: 30vh;
+    width: 35vw;
+    height: 35vh;
 
 }
 

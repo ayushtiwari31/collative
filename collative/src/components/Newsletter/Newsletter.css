@@ -10,3 +10,10 @@ button {
 button:hover{
     background-color: #3b8efa;
 }
+
+@media (max-width: 850px){
+    button {
+        margin-left: 1px;
+       scale: 0.6;
+    }
+}
