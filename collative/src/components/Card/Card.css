@@ -43,4 +43,32 @@
 }
 
 
+@media (max-width: 768px){
+    .card span{
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .para{
+        padding-left: 10px;
+        font-size: 0.6rem;
+    }
+
+    .profile img{
+        
+        width: 20px;
+        height: 20px;
+        
+    }
+    .name{
+        margin-left: 20px;
+        font-size: 0.6rem;
+        padding: 7px;
+        margin-top: 12px;
+    }
+
+    
+}
+
+
 

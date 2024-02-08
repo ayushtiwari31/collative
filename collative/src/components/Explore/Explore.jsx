@@ -13,7 +13,8 @@ function Explore() {
   return (
     <div className="explore" id='openings'>
         <span className='heading'>Explore Our Offerings</span>
-        <span className='sub-heading'>weund asjcsb saubb</span>
+        <span className='sub-heading'>We Have great offers!! </span>
+       
         <div>
             <img src={img1}  alt="" />
         </div>
@@ -36,6 +37,7 @@ function Explore() {
         <div>
             <img src={img7} alt="" />
         </div>
+       
 
         <div className="line"></div>
         

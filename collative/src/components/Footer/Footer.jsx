@@ -15,7 +15,7 @@ function Footer() {
     <div className="footer">
         <div className="upper-footer">
             <div className="first">
-                <img src={logo} alt="" className='logo' />
+                <img src={logo} alt="" className='logo logofooter' />
                 <p>Welcome to collative whereyour workdayis elevated,and successis a shared journey
                     we redefines workspace luxury. Melding sophistication with functionality .Provides a curated 
                     environment where productivity meets transquilty. Tailored for the modern professional. 

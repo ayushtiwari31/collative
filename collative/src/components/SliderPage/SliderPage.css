@@ -30,19 +30,17 @@
     background-color: rgb(19, 19, 19); /* Set active bullet color */
   }
 
-  /* .service-slider.swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    background-color: rgba(164, 62, 62, 0.5); 
-    border-radius: 50%;
-    margin: 0 5px; 
-    cursor: pointer;
-  } */
-/* 
-  .service-slider .swiper-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    display: flex;
-    justify-content: center;
-  } */
+
+  
+  @media (max-width: 768px){
+    
+   .heading-slider{
+    font-size: 1.4rem;
+   }
+   .lower-title{
+    font-size: 0.8rem;
+   }
+
+     
+    }
+    

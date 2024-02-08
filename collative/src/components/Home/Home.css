@@ -34,3 +34,40 @@
     right: 4vw;
     top: 12.4vh;
 }
+
+
+/* responsive code */
+
+@media (max-width: 768px){
+    .bg{
+       width: 87vh;
+       height: 60vh;
+       position: relative;
+       z-index: -1;
+       top: 60px; 
+    }
+
+    .data .text h1{
+        font-size: 12px;
+        margin-bottom: 1px;
+    }
+    .data .text span{
+        font-size: 6px;
+    }
+
+    .data{
+        width: 110vw;
+        padding: 3px;
+        top: -2px;
+        background-color: black;
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+
+
+    .form{
+        right: -19vw;
+        scale: 0.8;
+        top: -2vh;
+    }
+}

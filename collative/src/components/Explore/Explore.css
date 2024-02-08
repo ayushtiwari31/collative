@@ -51,3 +51,55 @@
     z-index: 2;
     top: 158vh;
 }
+
+
+
+@media (max-width: 768px){
+    .heading{
+        font-size: 2rem;
+    }
+    .sub-heading{
+        font-size: 0.8rem;
+    }
+
+    .explore img{
+       
+        width: 40vw;
+        height: 30vh;
+        margin: 12px;
+       opacity: 2;
+    }
+
+    .line{
+        display: none;
+    }
+
+    
+.sixth{
+   
+    width: 20vw;
+    height: 30vh;
+    margin: 10px;
+    
+}
+
+.sixth .img6l{
+   left: 2vw;
+    width: 20vw;
+    
+    height: 30vh;
+}
+
+.sixth .img6r{
+   
+    
+    right: 2vw;
+    width: 20vw;
+    height: 30vh;
+
+}
+
+    
+
+
+}

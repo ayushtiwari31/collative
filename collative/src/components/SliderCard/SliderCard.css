@@ -31,3 +31,31 @@
     margin-left: 10px;
     align-items: center;
 }
+
+
+
+
+@media (max-width: 768px){
+    .cards{
+       
+        width: 70vw;
+        height: 40vh;
+        margin-left: 40px;
+    }
+
+    .cards img{
+        width: 70vw;
+        height: 50vh;
+    }    
+    .title{
+        font-size: 1.2rem;
+        left: 14vw;
+    }
+
+    .sub-title{
+        
+        font-size: 0.8rem;
+       
+    }
+    
+}

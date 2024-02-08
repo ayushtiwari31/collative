@@ -13,7 +13,9 @@ function Navbar() {
         <div className="header">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div>
         <div className="n-right">
             {/* <div className="n-list"> */}
+
                 <ul style={{ listStyleType: "none" }}>
+
                    <div className="n-name">
                     <img src={logo} alt="" className='logo'/>
                    </div>
