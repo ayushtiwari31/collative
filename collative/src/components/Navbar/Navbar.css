@@ -125,9 +125,9 @@ justify-content: center;
     }
     .n-right ul li{
         margin-right: 25px;
-        color: aliceblue;
+        color: rgb(251, 251, 252);
         font-size: 0.6rem;
-        font-weight: lighter;
+        font-weight: normal;
     }
   }
   
