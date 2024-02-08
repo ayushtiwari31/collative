@@ -7,6 +7,7 @@
     /* margin-top: 20vh; */
     margin: 20px;
     
+    
 }
 .upper{
     display: flex;
@@ -30,6 +31,7 @@
     }
 
     .container{
-       margin-left: 80px;
+       margin-left: 60px;
+       margin-right: 10px;
     }
 }
