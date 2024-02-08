@@ -75,25 +75,23 @@ background-color: rgb(252, 252, 253);
     }
 
     .form{
-        padding: 30px;
+        padding: 48px;
        
     }
     
-  input,
-  textarea {
-    font-size: 16px;
-    color: brown;
-  }
+ 
 
     .label{
-        font-weight: 800;
+        font-weight: 600;
         font-size: 7px;
     }
     
   input,
   textarea {
     font-size: 5px;
+    color: brown;
   }
+
 
 }
 

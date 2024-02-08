@@ -5,7 +5,7 @@
     align-items: center;
     /* padding: 50px; */
     /* margin-top: 20vh; */
-    margin: 20px;
+    /* margin: 20px; */
     
     
 }
@@ -33,5 +33,8 @@
     .container{
        margin-left: 10px;
        margin-right: 10px;
+    }
+    .upper{
+        scale: 0.85;
     }
 }

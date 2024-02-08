@@ -76,20 +76,21 @@ justify-content: center;
 @media (max-width: 850px) {
 
     .n-wrapper{
-        width: 200vw;
-        /* background-color: black; */
+        width: 100vw;
+        background-color: black;
     }
     .header{
         font-size: 10px;
         height: 12px;
         padding: 2px;
-        width: 80vw;
+        width: 100vw;
+        background-color: rgb(254, 254, 255);
     }
     
     .n-right .n-name{
         position: absolute;
-         top: -10px;
-         left: 150px;
+         top: 10px;
+         left: 40px;
         scale: 0.6;
         margin-right: 1px;
 
@@ -100,23 +101,33 @@ justify-content: center;
     }
 
     .n-right {
-        position:absolute ;
-        width: 110vw;
+        /* position:absolute ; */
+        width: 100vw;
+        background-color: black;
     }
 
     .n-right ul{
       display: flex;
-        margin-right: 0px;
+    margin-right: 0px;
         /* flex-direction: column; */
         justify-content: space-between;
         margin-top: 30px;
+        
     }
 
     .number{
         display: none;
+        
     }
     .started{
         display: none;
+        
+    }
+    .n-right ul li{
+        margin-right: 20px;
+        color: aliceblue;
+        font-size: smaller;
+        font-weight: lighter;
     }
   }
   
