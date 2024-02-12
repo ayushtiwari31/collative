@@ -32,7 +32,7 @@
 .form{
     position: absolute;
     right: 4vw;
-    top: 12.4vh;
+    top: 7vh;
 }
 
 
@@ -66,8 +66,8 @@
 
 
     .form{
-        right: 5vw;
+        right: 2vw;
         scale: 0.8;
-        top: 10vh;
+        top: 11vh;
     }
 }
