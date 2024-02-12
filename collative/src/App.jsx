@@ -16,7 +16,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <Explore/>
+    {/* <Explore/> */}
     <Testimonial/>
     <SliderPage/>
     <Footer/>
