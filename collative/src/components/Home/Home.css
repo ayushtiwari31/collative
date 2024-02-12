@@ -71,3 +71,28 @@
         top: 11vh;
     }
 }
+
+
+@media(max-width: 400px) {
+    .form {
+        top: 8vh;
+    }
+  }
+
+  @media(max-width: 770px) {
+    .form {
+        top: 7vh;
+    }
+  }
+  
+  @media(max-width: 830px) {
+    .form {
+        top: 7vh;
+    }
+  }
+  
+  @media(max-width: 1050px) {
+    .form {
+        top: 11vh;
+    }
+  }
