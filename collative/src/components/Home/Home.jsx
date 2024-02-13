@@ -10,7 +10,7 @@ function Home() {
         <img src={bg} alt="" className='bg' />
         <div className="data">
             <div className="text">
-                <h1>800+</h1>
+                <h1>1000+</h1>
                 <span>Workstations</span>
             </div>
 
