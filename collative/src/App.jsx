@@ -20,9 +20,9 @@ function App() {
     <Home/>
     {/* <Explore/> */}
     <Harmony/>
-    <Testimonial/>
     <SliderPage/>
     <Features/>
+    <Testimonial/>
     <Footer/>
     </>
   )

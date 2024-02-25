@@ -2,82 +2,112 @@ import React ,{useState}from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from "yup";
 import './Form.css'
+import { useForm } from 'react-hook-form';
+import axios from 'axios';
 
 
 
-const registerSchema = yup.object().shape({
-    firstName: yup.string().required("required"),
-    lastName: yup.string().required("required"),
-    email: yup.string().email("invalid email").required("required"),
-    phone: yup.string()
-    .matches(/^[0-9]{10}$/, 'Phone number must be exactly 10 digits')
-    .required('Phone number is required'),
-    selectedOption: yup.string().required('Please select an option'),
-});
+// const registerSchema = yup.object().shape({
+//     firstName: yup.string().required("required"),
+//     lastName: yup.string().required("required"),
+//     email: yup.string().email("invalid email").required("required"),
+//     phone: yup.string()
+//     .matches(/^[0-9]{10}$/, 'Phone number must be exactly 10 digits')
+//     .required('Phone number is required'),
+//     selectedOption: yup.string().required('Please select an option'),
+// });
 
-const initialValuesRegister = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    selectedOption:''
-};
+// const initialValuesRegister = {
+//     firstName: "",
+//     lastName: "",
+//     email: "",
+//     phone: "",
+//     selectedOption:''
+// };
 
 
 
 function myForm(){
 
-    const [selectedCountryCode, setSelectedCountryCode] = useState('');
-    const handleCountryCodeChange = (countryCode) => {
-        setSelectedCountryCode(countryCode);
-      };
+    // const [selectedCountryCode, setSelectedCountryCode] = useState('');
+    // const handleCountryCodeChange = (countryCode) => {
+    //     setSelectedCountryCode(countryCode);
+    //   };
 
-    const handleFormSubmit = async (values, onSubmitProps) => {
-        try {
-            console.log(values);
+    // const handleFormSubmit = async (values, onSubmitProps) => {
+    //     try {
+    //         console.log(values);
             
-            const formData = new FormData();
+    //         const formData = new FormData();
 
-            for (let value in values) {
-                formData.append(value, values[value]);
-            }
+    //         for (let value in values) {
+    //             formData.append(value, values[value]);
+    //         }
            
 
            
-           //for checking
-            for (let [key, value] of formData.entries()) {
-                console.log(`${key}: ${value}`);
-            }
+    //        //for checking
+    //         for (let [key, value] of formData.entries()) {
+    //             console.log(`${key}: ${value}`);
+    //         }
             
            
             
     
-            const response = await fetch("http://localhost:3000/", {
-                method: "POST",
+    //         const response = await fetch("http://localhost:3000/", {
+    //             method: "POST",
             
                
-                headers: {
-                    'Content-Type': 'application/json', // Set the content type to JSON
-                },
-                body: JSON.stringify(values),
-            });
+    //             headers: {
+    //                 'Content-Type': 'application/json', // Set the content type to JSON
+    //             },
+    //             body: JSON.stringify(values),
+    //         });
     
-            if (!response.ok) {
-                throw new Error('Failed to submit form');
-            }
+    //         if (!response.ok) {
+    //             throw new Error('Failed to submit form');
+    //         }
 
-            
+    //         onSubmitProps.resetForm();
+
+    //     } catch (error) {
+    //         console.error('Error submitting form:', error);
+    //     }
+    // }
+
+    const { register, handleSubmit,reset, formState: { errors } } = useForm();
+
+    const onSubmit= async (data) => {
+       
+    //     console.log(data)
+    //     const formData = new FormData();
+    //     formData.append('category', data.category);
+    //     formData.append('specialContext', data.specialContext);
+    //     formData.append('title', data.title);
+    //     formData.append('content', data.content);
+    //     formData.append('image', data.image[0]); // Assuming single image upload
+    //     formData.append('WrittenBy', data.WrittenBy); 
+
+    //     reset();
+    //     console.log(formData)
     
-            onSubmitProps.resetForm();
-
-        } catch (error) {
-            console.error('Error submitting form:', error);
-        }
+    //     try {
+    //       const response = await axios.post('', formData, {
+    //         headers: {
+    //           'Content-Type': 'multipart/form-data'
+    //         }
+    //       });
+    //       console.log('Blog post created successfully:', response.data);
+    //     } catch (error) {
+    //       console.error('Error creating blog post:', error);
+    //     }
     }
     
   return (
     <div>
-    <Formik
+
+    
+    {/* <Formik
     onSubmit={handleFormSubmit}
     initialValues={initialValuesRegister}
     validationSchema={registerSchema}
@@ -175,7 +205,76 @@ function myForm(){
       )
     }
 
-    </Formik>
+    </Formik> */}
+
+<form className='form' onSubmit={handleSubmit(onSubmit)}>
+       
+       <button className='reactbtn' type="submit">Schedule a Visit</button> 
+        
+        <div className="form-box">
+
+        
+
+        <div className="pass toppass">
+
+      <div >
+        <label htmlFor="firstname" className='label' >First Name</label>
+        <input placeholder='First Name...'className='inputfield leftpass' type="text" id="firstname" name="firstname" {...register("firstname",{
+            required:"FirstName is required",
+            pattern: {
+              value: /^[A-Za-z]+$/,
+              message: "First name must contain only alphabetic characters"
+            }
+        })} />
+        {errors.firstname && <span>{errors.firstname.message}</span>}
+      </div>
+
+
+      <div >
+        <label htmlFor="lastname" className='label'>Last Name</label>
+        <input placeholder='Last Name...'className='inputfield' type="text" id="lastname" name="lastname" {...register("lastname", {
+           required:'LastName is required',
+           pattern: {
+            value: /^[A-Za-z]+$/,
+            message: "LastName must contain only alphabetic characters"
+          }
+          })} />
+        {errors.lastname && <span>{errors.lastname.message}</span>}
+      </div>
+      
+
+      </div>
+
+      <div className='email'>
+        <label htmlFor="email" className='label'>Email Address</label>
+        <input placeholder='Email...'className='inputfield emailinp' type="email" id="email" name="email" {...register("email", { 
+          required: "Email is required",
+          pattern: {
+          value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+          message: "Invalid email address"
+          } })}
+          />
+        {errors.email && <span>{errors.email.message}</span>}
+      </div>
+
+      <div className='email'>
+        <label htmlFor="organisation" className='label'>Organisation</label>
+        <input placeholder='Organisation...'className='inputfield ' type="text" id="organisation" name="organisation" {...register("organisation", { 
+          required: "Organisation is required",
+        })}
+          />
+        {errors.organisation && <span>{errors.organisation.message}</span>}
+      </div>
+
+     
+
+
+
+     
+      </div>
+     
+    </form>
+
     </div>
   )
 }
