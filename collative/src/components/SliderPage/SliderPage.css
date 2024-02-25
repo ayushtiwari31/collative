@@ -10,7 +10,11 @@
 .arrow{
     scale: 0.7;
 }
-
+.slider-container{
+    background-color: #F4F4F4;
+    position: relative;
+    border: none;
+}
 
 .heading-slider{
     font-size: 2.7rem;
@@ -28,6 +32,11 @@
 
 .service-slider .swiper-pagination-bullet-active {
     background-color: rgb(19, 19, 19); /* Set active bullet color */
+  }
+
+  .service-slider{
+    height: 70vh;
+    padding-top: 50px;
   }
 
 

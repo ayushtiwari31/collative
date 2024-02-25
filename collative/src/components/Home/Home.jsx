@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import bg from '../../images/bg1.png'
+import bg from '../../images/collative.jpeg'
 import Form from '../Form/Form.jsx'
 
 function Home() {
@@ -24,10 +24,10 @@ function Home() {
                 <span>Pax Event Space</span>
             </div>
 
-            <div className="text">
+            {/* <div className="text">
                 <h1>24</h1>
                 <span>Hours Accessibility<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&C Apply</span>
-            </div>
+            </div> */}
         </div>
     </div>
   )

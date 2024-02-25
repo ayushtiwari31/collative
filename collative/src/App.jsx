@@ -8,6 +8,8 @@ import Explore from './components/Explore/Explore.jsx'
 import Testimonial from './components/Testimonial/Testimonial.jsx'
 import SliderPage from './components/SliderPage/SliderPage.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import Harmony from './components/Harmony/Harmony.jsx'
+import Features from './components/Features/Features.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +18,11 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <Explore/>
+    {/* <Explore/> */}
+    <Harmony/>
     <Testimonial/>
     <SliderPage/>
+    <Features/>
     <Footer/>
     </>
   )

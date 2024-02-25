@@ -22,13 +22,11 @@ SwiperCore.use([Autoplay,Pagination,Navigation])
 
 function SliderPage() {
   return (
-    <div className='container' id='contact'>
+    <div className='container slider-container' id='contact'>
 
         <span className='heading-slider'>Your Business, Your Custom Solutions</span>
         <span className='lower-title'>Creating Spaces to Match Your Goals, Delivering the Best Possible Outcomes</span>
     <Swiper
-
-       
         spaceBetween={30}
         slidesPerView={4}
         grabCursor={true}
@@ -57,8 +55,8 @@ function SliderPage() {
         className="service-slider"
       
     >
-        <div className="swiper-button-prev arrow"></div>
-        <div className="swiper-button-next arrow"></div>
+        {/* <div className="swiper-button-prev arrow"></div>
+        <div className="swiper-button-next arrow"></div> */}
 
         <SwiperSlide >
           <SliderCard title={"Atrium for Events"} description={"Elevate occasions with atrium unmatched. Event hosting and management expertise."} photo={Atrium} />
