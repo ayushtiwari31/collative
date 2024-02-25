@@ -1,25 +1,36 @@
-import React from 'react'
-import { Formik} from "formik";
+import React ,{useState}from 'react'
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from "yup";
 import './Form.css'
+
+
 
 const registerSchema = yup.object().shape({
     firstName: yup.string().required("required"),
     lastName: yup.string().required("required"),
     email: yup.string().email("invalid email").required("required"),
-    organisation: yup.string().required("required"),
+    phone: yup.string()
+    .matches(/^[0-9]{10}$/, 'Phone number must be exactly 10 digits')
+    .required('Phone number is required'),
+    selectedOption: yup.string().required('Please select an option'),
 });
 
 const initialValuesRegister = {
     firstName: "",
     lastName: "",
     email: "",
-    organisation: "",
+    phone: "",
+    selectedOption:''
 };
 
 
 
-function Form(){
+function myForm(){
+
+    const [selectedCountryCode, setSelectedCountryCode] = useState('');
+    const handleCountryCodeChange = (countryCode) => {
+        setSelectedCountryCode(countryCode);
+      };
 
     const handleFormSubmit = async (values, onSubmitProps) => {
         try {
@@ -61,7 +72,6 @@ function Form(){
 
         } catch (error) {
             console.error('Error submitting form:', error);
-            // Handle the error appropriately (e.g., show a message to the user)
         }
     }
     
@@ -82,64 +92,86 @@ function Form(){
         setFieldValue,
         resetForm,
       }) =>(
-        <form  onSubmit={handleSubmit}>
-        
+        <Form  onSubmit={handleSubmit} form-container >
             <div className='form'>
+            <h1>Talk to an expert.</h1>
+               
 
-                <div className="submit" >
-                <button type="submit"   >Schedule a Visit</button>
-                </div>
+               
+            <Field name="selectedOption" as="select" className="slct" >
+            <option value="">What are you interested in?*</option>
+            <option value="option1">Managed Offices</option>
+            <option value="option2">Shared Workspace</option>
+            <option value="option3">Meeting Room</option>
+            <option value="option4">Conference Hall</option>
+            <option value="option5">Interview Room</option>
+            <option value="option6">Hot Desk</option>
+            <option value="option7">Event Space</option>
+           </Field>
+          <ErrorMessage  name="selectedOption" component="span" className="error" />
+         
+           
+            
+           
 
-            <div className='name'>
-
-            <div>
-            <label className="label" htmlFor="firstName">First name <span>{errors.firstName && touched.firstName && errors.firstName}</span></label>
-            <br/>
-            <input className ="inp" type="text" id="firstName" name="firstName" placeholder="Enter your first name"
+          
+           
+            <input className ="inp" type="text" id="firstName" name="firstName" placeholder="Full name*"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.firstName} 
             />
-            </div>
+             <ErrorMessage name="firstName" component="span" className="error" />
 
-            <div>
-            <label className="label" htmlFor="lastName">Last name <span>{errors.lastName && touched.lastName && errors.lastName}</span></label>
-            <br/>
-            <input className ="inp" type="text" id="lastName" name="lastName" placeholder="Enter your last name"
+            
+
+            
+           
+             <input className ="inp" type="text" id="lastName" name="lastName" placeholder="Last name*"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.lastName} 
             />
-            </div>
+             <ErrorMessage name="lastName" component="span" className="error" />
 
-            </div>
+            
 
-            <div className="other">
+           
+            
 
-            <div>
-            <label className="label" htmlFor="email">Email address <span>{errors.email && touched.email && errors.email}</span></label>
-            <br/>
-            <input className ="inp" type="text" id="email" name="email" placeholder="Enter your email"
+           
+            
+            <input className ="inp" type="text" id="email" name="email" placeholder="Email*"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.email} 
             />
-            </div>
+             <ErrorMessage name="email" component="span" className="error" />
 
-            <div>
-            <label className="label" htmlFor="organisation">Organisation <span>{errors.organisation && touched.organisation && errors.organisation}</span></label>
-            <br/>
-            <input className ="inp" type="text" id="organisation" name="organisation" placeholder="Enter your organisation"
+            
+
+            
+            
+            
+                <input className ="inp" type="tel" id="phone" name="phone" placeholder="Phone number*"
                 onChange={handleChange}
                 onBlur={handleBlur}
-                value={values.organisation} 
-            />
-            </div>
+                value={values.phone} 
+                />
+
+             <ErrorMessage name="phone" component="span" className="error" />
+
+
+
+           
+            
+          
+            <div className="submit" >
+                <button type="submit">INQUIRE NOW</button>
+                </div>
             </div>
 
-            </div>
-            
-        </form>
+        </Form>
       )
     }
 
@@ -148,4 +180,4 @@ function Form(){
   )
 }
 
-export default Form
+export default myForm
