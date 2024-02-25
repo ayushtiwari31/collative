@@ -5,9 +5,25 @@
     align-items: center;
     margin-top: 300px;
     margin-bottom: 300px;
-    background-color: rgb(252, 244, 234);
+    /* background-color: rgb(252, 244, 234); */
     padding: 20px;
     padding-bottom: 30px;
+/*  
+    background-image: url('../../images/bottombg.png');
+   
+   
+    background-size: cover;
+    background-repeat: no-repeat; */
+    border: none;
+   
+}
+.bottombg{
+    position: absolute;
+    z-index: -2;
+    border: none;
+    width: 100vw;
+    top: -40px;
+    opacity: 0.8;
 }
 
 .bottom-text{
