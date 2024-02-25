@@ -3,6 +3,9 @@
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: center;
+    position: relative;
+    z-index: 20;
+    
 }
 .explore img{
     position: relative;
@@ -45,12 +48,43 @@
 .line{
     position: absolute;
     width: 10px;
-    height: 502vh;
+    height: 508vh;
     background-color: rgb(18, 17, 17);
     right: 49vw; 
     z-index: 2;
-    top: 158vh;
+    top: 49vh;
+    left: 49.2vw;
 }
+
+.managed{
+    position: relative;
+    left: 10px;
+}
+
+.meeting-room{
+    position: relative;
+    left: 10px;
+}
+
+.interview-room{
+    position: relative;
+    left: 10px;
+}
+
+/* 
+.attrium-container{
+    position: relative;
+    width: 100vw;
+}
+
+.attrium{
+    width: 100vw;
+    height: 50vh;
+} */
+
+
+
+
 
 
 

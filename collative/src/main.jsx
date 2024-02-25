@@ -8,7 +8,7 @@ import Page2 from './Pages/Page2.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    {/* <Page2/> */}
+    <Page2/>
     
   </React.StrictMode>,
 )

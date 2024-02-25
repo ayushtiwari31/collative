@@ -8,26 +8,29 @@ import img5 from '../../images/5.png'
 import img7 from '../../images/7.png'
 import img6l from '../../images/6l.png'
 import img6r from '../../images/6r.png'
+import attrium from '../../images/attrium.png'
 
 function Explore() {
   return (
     <div className="explore" id='openings'>
+
+       
         <span className='heading'>Explore Our Offerings</span>
         <span className='sub-heading'>We Have great offers!! </span>
        
-        <div>
+        <div className='managed'>
             <img src={img1}  alt="" />
         </div>
         <div>
             <img src={img2}  alt="" />
         </div>
-        <div>
+        <div className='meeting-room'>
             <img src={img3}  alt="" />
         </div>
         <div>
             <img src={img4} alt="" />
         </div>
-        <div>
+        <div className='interview-room'>
             <img src={img5} alt="" />
         </div>
         <div className="sixth">
@@ -40,10 +43,6 @@ function Explore() {
        
 
         <div className="line"></div>
-        
-        
-        
-       
 
     </div>
   )
