@@ -1,0 +1,33 @@
+.bottom{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color: rgb(252, 244, 234);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.bottom-text{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.bold{
+    font-weight: 900;
+}
+
+.bottom-btn{
+    border-radius: 20px;
+    margin-left: 100px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.bottom-btn2{
+    border-radius: 20px;
+    margin-left: 58px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
