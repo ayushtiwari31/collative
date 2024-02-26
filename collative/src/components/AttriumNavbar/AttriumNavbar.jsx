@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './AttriumNavbar.css'
 import logo from '../../images/logo2.png'
 import { Link,NavLink } from "react-router-dom";
+import Poster from '../../images/Poster.jpg'
 
 function AttriumNavbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -64,11 +65,11 @@ function AttriumNavbar() {
 
                 </ul>
 
-                <Link to="contact" spy={true} smooth={true}>
+                <a href={Poster} download>
                   <button className="button n-button download" >Download Brochure</button>
-                </Link>
+                </a>
 
-            <Link to="contact" spy={true} smooth={true} >
+            <Link to="about" spy={true} smooth={true} >
               <button className="button n-button getstarted" >Get Started</button>
             </Link>
 
