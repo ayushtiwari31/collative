@@ -9,11 +9,11 @@ import AttriumNavbar from '../components/AttriumNavbar/AttriumNavbar'
 function Page2() {
   return (
     <>
-    <AttriumNavbar/>
+    {/* <AttriumNavbar/> */}
     <Attrium/>
     <Explore/>
     <Bottom/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

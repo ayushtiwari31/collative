@@ -5,17 +5,21 @@ flex-direction: column;
 align-items: center;
 border: 1px solid black;
 width: 27vw;
-height: 55vh;
+/* height: 60vh; */
 padding: 20px;
 border-radius: 15px;
 margin: 100px;
 box-shadow: 10px 14px 8px rgba(2, 0, 0, 0.9);
 background-color:white;
+height: auto;
+}
 
+.form span{
+  color: red;
 }
 
 .reactbtn{
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   font-size: 1.3rem;
   border-radius: 5px;
@@ -23,8 +27,25 @@ background-color:white;
   padding-right: 65px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
+  width: 24.5vw;
+  /* margin-bottom: 20px; */
+ 
+}
 
+.schedule{
+  font-weight: 500;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 17vw;
+  text-align: center;
+  background-color: black;
 }
 
 .label{
@@ -39,7 +60,7 @@ background-color:white;
   flex-direction: column;
   padding: 30px;
   padding-left: 70px;
- margin-top: 20px;
+ margin-top: 10px;
 }
 
 .email
@@ -62,59 +83,6 @@ background-color:white;
 }
 
 
-
-/* 
-
-.inp{
-    margin-bottom: 20px;
-    width: 23vw;
-    padding: 10px;
-    border: 1px solid rgb(146, 146, 146);
-}
-
-.slct{
-    margin-bottom: 20px;
-    width: 24vw;
-    padding: 10px;
-    border: 1px solid rgb(146, 146, 146);
-    
-}
-.slct option {
-    font-size: 1rem;
-    font-weight: 100;
-    color: rgb(107, 107, 107);
-}
-
-.error{
-    display: flex;
-    align-items: center;
-    color: red;
-    position: relative;
-    top: -10px;
-    height: 8px;
-    padding: 0px;
-}
-
-.form input ::placeholder{
-    color: rgb(186, 110, 23);
-}
-
-
-.submit button  {
-  color: aliceblue;
-  font-weight: bold;
-  background-color: rgb(189, 12, 12);
-  border: none;
-  padding: 10px;
-  width: 24.6vw;
-  height: 6vh;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.submit button:hover{
-    cursor: pointer;
-} */
 
 
 /* responsive code */

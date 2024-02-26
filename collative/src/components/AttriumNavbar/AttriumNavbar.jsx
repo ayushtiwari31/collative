@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
 import './AttriumNavbar.css'
 import logo from '../../images/logo2.png'
+import { Link,NavLink } from "react-router-dom";
 
 function AttriumNavbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,44 +13,53 @@ function AttriumNavbar() {
   return (
     <div className="n-wrapper "  >
        
-        {/* <div className="header">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div> */}
+        <div className="header header2">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div>
 
         <div className="n-rights attrium-navbar">
 
                 <ul style={{ listStyleType: "none" }}>
 
                    <div className="n-name">
-                    <img src={logo} alt="" className='logo2'/>
+                    <NavLink to='/'>
+                         <img src={logo} alt="" className='logo2'/>
+                    </NavLink>
+                   
                    </div>
 
                     <li >   
-                    <Link activeClass="active" to="Home" spy={true} smooth={true}>
-                      Home
-                    </Link>
+                    <NavLink to="/"   
+                style={({ isActive }) => ({color: isActive ? "orange" : "black",})}
+                >
+                  Home
+                </NavLink>
                     </li>
                  
                     <li>
-                    <Link to="openings" spy={true} smooth={true}>
-                      Openings
-                    </Link>
+                    <NavLink to="/offerings"
+                style={({ isActive }) => ({color: isActive ? "orange" : "black",})} >
+                  Offerings
+                </NavLink>
                     </li>
 
                     <li>
-                    <Link to="works" spy={true} smooth={true}>
-                        About us
-                    </Link>
+                    <NavLink to="/about" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "black",})} >
+                    About us
+                </NavLink>
                     </li>
 
                     <li>
-                    <Link to="contact" spy={true} smooth={true}>
-                        Contact us
-                    </Link>
+                    <NavLink to="/contact" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "black",})} >
+                    Contact us
+                </NavLink>
                     </li>
 
                     <li>
-                    <Link to="testimonial" spy={true} smooth={true}>
-                        Blogs
-                    </Link>
+                    <NavLink to="/blogs" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "black",})} >
+                    Blogs
+                </NavLink>
                     </li>
 
                 </ul>

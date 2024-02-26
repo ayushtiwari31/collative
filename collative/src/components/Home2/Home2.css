@@ -1,0 +1,253 @@
+.page2card{
+    height: 37vh;
+}
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.calm
+{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+.calm1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.calm2{
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.calm .calmimg{
+    position: relative;
+    width: 60vw;
+    height: 70vh;
+    box-shadow: 14px 15px 5px rgba(0,0,0,0.8);
+    border-radius: 37px;
+    margin-bottom: 10px;
+}
+
+.south{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+.south1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.south2{
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+
+.south-cards{
+    display: flex;
+    gap: 70px;
+}
+
+.south-card{
+    position: relative;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    /* padding: 10px; */
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.south-card img{
+    width: 18vw;
+    height: 30vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 0vh;
+}
+
+
+.south-card span{
+    position: absolute;
+    top: 32vh;
+    left: 18px;
+    font-weight: 600;
+}
+
+.south-card .south-prize{
+    position: absolute;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* EXCLUSIVE  */
+
+.exclusive{
+    margin-top: 200px;
+    background-color: #0C1420;
+    width: 100vw;
+    height: 150vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.exclusive h1{
+    margin-top: 60px;
+}
+.exclusive-container{
+    display: flex;
+    align-items: center;
+    gap: 280px;
+    position: relative;
+    margin-top: 200px;
+}
+.exclusive-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 10vh;
+    width: 15vw;
+    z-index: 2;
+    position: relative;
+    /* background-color: rgb(76, 217, 217); */
+}
+
+.exclusive-card .black-card{
+    /* background-color: antiquewhite; */
+    height: 70px;
+    width: 70px;
+    position: absolute;
+
+    /* z-index: 3; */
+}
+
+.black-span{
+    text-align: center;
+}
+
+
+/* rajdarbar  */
+.rajdarbar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rajdarbar img{
+    width: 30vw;
+    margin-top: 20vh;
+}
+.rajdarbar h1{
+    font-size: 2.5rem;
+    margin-top: 10vh;
+}
+
+.rajdarbar span{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20vh;
+}
+
+/* business  */
+
+.business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F4F4;
+    width: 100vw;
+    padding-bottom: 100px;
+    margin-bottom: 20vh;
+}
+
+.business h1{
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.business span{
+    font-size: 1.2rem;
+}
+
+.legacy{
+    display: flex;
+    margin-top: 100px;
+    gap: 80px;
+    position: relative;
+    justify-content: center;
+}
+.legacy1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.legacy1 img{
+    width: 20vw;
+    height: 22vh;
+    
+    position: relative;
+    top: 0vh;
+    z-index: 10;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* left: 10px; */
+}
+
+.legacy-card{
+    width: 19vw;
+    height: 20vh;
+    padding: 10px;
+    /* background-color: #0C1420; */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+}
+
+.legacy-black{
+    background-color: #0C1420;
+    color: white;
+}
+
+.legacy .legacy-line{
+    position: absolute;
+    height: 60vh;
+    width: 1.5vh;
+    z-index: 10;
+    top: 10vh;
+}

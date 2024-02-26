@@ -67,9 +67,8 @@ function Footer() {
             <div className="icons">
                 <a href="https://www.facebook.com"><img src={insta} alt="" /></a>
                 <a href="https://twitter.com"><img src={twitter} alt="" /></a>
-                <a href="https://www.instagram.com"><img src={facebook} alt="" /></a>
-                <a href="https://www.instagram.com"><img src={linkedin} alt="" /></a>
-            
+                <a href="https://www.facebook.com"><img src={facebook} alt="" /></a>
+                <a href="https://www.linkedin.com"><img src={linkedin} alt="" /></a>
             </div>
             <div className="rights">
               <span>Copyrigt &copy; 2020. All rights reserved</span>

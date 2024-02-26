@@ -29,6 +29,7 @@
         padding: 0px;
         width: 100vw;
         color: black;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.3);
     
     }
     .attrium-navbar{
@@ -38,8 +39,9 @@
     .n-rights ul{
         display: flex;
         align-items: center;
-        margin-right: 100px;
-        margin-left: 120px;
+        margin-right: 220px;
+        margin-left: 50px;
+        list-style: none;
     }
     
     .n-rights ul li{
@@ -47,6 +49,12 @@
         color: black;
         font-size: large;
         font-weight: 600;
+       
+    }
+
+    .n-rights a {
+        text-decoration: none;
+        color: aliceblue;
     }
     
     .n-rights ul li:hover{
@@ -61,11 +69,18 @@
     
     .logo2{
         scale: 1.2;
-        margin-right: 120px;
+        margin-right: 70px;
 
     }
+    .header2{
+        color: white;
+        background-color: #0d0d0d;
+        font-size: 12px;
+    }
     
-    
+    .n-wrapper{
+        z-index: 10;
+    }
     
     
     

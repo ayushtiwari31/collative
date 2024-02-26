@@ -11,13 +11,15 @@ import Footer from './components/Footer/Footer.jsx'
 import Harmony from './components/Harmony/Harmony.jsx'
 import Features from './components/Features/Features.jsx'
 import Bottom from './components/Bottom/Bottom.jsx'
+import AttriumNavbar from './components/AttriumNavbar/AttriumNavbar.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
+    {/* <AttriumNavbar/> */}
     <Home/>
     {/* <Explore/> */}
     <Harmony/>
@@ -25,7 +27,7 @@ function App() {
     <Features/>
     <Testimonial/>
     <Bottom/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

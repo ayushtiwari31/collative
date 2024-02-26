@@ -209,7 +209,7 @@ function myForm(){
 
 <form className='form' onSubmit={handleSubmit(onSubmit)}>
        
-       <button className='reactbtn' type="submit">Schedule a Visit</button> 
+       <div className='schedule' >Schedule a Visit</div> 
         
         <div className="form-box">
 
@@ -266,12 +266,11 @@ function myForm(){
         {errors.organisation && <span>{errors.organisation.message}</span>}
       </div>
 
-     
-
 
 
      
       </div>
+      <button className='reactbtn' type='submit'>Submit</button> 
      
     </form>
 
