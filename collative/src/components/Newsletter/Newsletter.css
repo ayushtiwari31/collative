@@ -16,4 +16,11 @@ button:hover{
         margin-left: 1px;
        scale: 0.6;
     }
+    input{
+        width: 30vw;
+    }
+    input::placeholder{
+        font-size: 0.8rem;
+    }
+
 }
