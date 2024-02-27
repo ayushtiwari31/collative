@@ -312,6 +312,7 @@
         width: auto;
         padding: 30px;
         height: 80vh;
+        padding-bottom: 20px;
     }
     .exclusive h1{
         font-size: 1.4rem;

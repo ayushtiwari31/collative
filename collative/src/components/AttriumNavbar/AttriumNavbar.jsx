@@ -117,13 +117,13 @@ function AttriumNavbar() {
           <li className="nav-item">
           <NavLink to="/about" 
                 style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
-                    About us
+                    About
                 </NavLink>
           </li>
           <li className="nav-item">
           <NavLink to="/contact" 
                 style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
-                    Contact us
+                    Contact
                 </NavLink>
           </li>
 

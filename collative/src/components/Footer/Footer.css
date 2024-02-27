@@ -131,6 +131,10 @@ font-size:0.6rem ;
     top: -5px;
     left: -10px;
 }
+.first{
+    margin-right: 40px;
+    /* margin-left: 10px; */
+}
 
 
 .icons img{
