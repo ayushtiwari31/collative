@@ -311,8 +311,8 @@
     .exclusive{
         width: auto;
         padding: 30px;
-        height: 80vh;
-        padding-bottom: 20px;
+        height: 85vh;
+        /* padding-bottom: 20px; */
     }
     .exclusive h1{
         font-size: 1.4rem;
@@ -390,7 +390,7 @@
   }
 
   .legacy .legacy-line{
-    top: 0vh;
+    top: 50px;
   }
   .business{
     margin-bottom: 80px;

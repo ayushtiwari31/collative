@@ -88,6 +88,19 @@ height: auto;
 /* responsive code */
 @media (max-width: 850px){
 
+  
+.inputfield{
+  
+  width: 25vw;
+  height: 13px;
+  padding: 3.4px;
+  border: none;
+}
+.inputfield::placeholder{
+  font-size: 0.7rem;
+}
+
+
     .submit button {
      
         border-radius: 10px;
@@ -157,7 +170,7 @@ height: auto;
     
  
 }
-
+/* 
 @media((min-width:100px) and (max-width: 300px)) {
     .form {
       height: auto;
@@ -408,4 +421,4 @@ height: auto;
 
   
   
-
+ */
