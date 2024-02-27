@@ -91,7 +91,7 @@ function Home2() {
 
         <div className="exclusive">
                 <h1>Revel In Exclusive Features</h1>
-                <span>Experience the joy of distinctive and exclusive features.</span>
+                <span className='exclusive-span'>Experience the joy of distinctive and exclusive features.</span>
 
                 <div className="exclusive-container">
                     <div className="exclusive-card">

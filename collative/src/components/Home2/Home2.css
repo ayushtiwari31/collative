@@ -12,7 +12,7 @@
 
 .calm
 {
-    width: 50vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,4 +250,148 @@
     width: 1.5vh;
     z-index: 10;
     top: 10vh;
+}
+
+@media (max-width: 850px){
+    .calm .calm1{
+        font-size: 1.4rem;
+        text-align: center;
+        /* width: 60vw; */
+    }
+    .calm{
+        width: auto;
+        margin-top: 60px;
+        
+    }
+    .calm2{
+        font-size: 0.8rem;
+        margin-bottom: 50px;
+    }
+
+    .calm .calmimg{
+        width: 90vw;
+        height: 30vh;
+        
+        box-shadow: 8px 8px 20px rgba(0,0,0,0.8);
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .south{
+        width: auto;
+    }
+
+    .south1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .south2{
+        font-size: 0.8rem;
+        margin-bottom: 50px;
+    }
+    .south-cards{
+        flex-direction: column;
+    }
+
+    .south-card{
+        width: 70vw;
+        height: 36vh;
+        box-shadow: 8px 8px 20px rgba(0,0,0,0.8);
+    }
+    .south-card img{
+        width: 70vw;
+        height: 30vh;
+    }
+    .south-card span{
+        font-size: 0.8rem;
+    }
+    .south-card br{
+        display: none;
+    }
+
+    .exclusive{
+        width: auto;
+        padding: 30px;
+        height: 80vh;
+    }
+    .exclusive h1{
+        font-size: 1.4rem;
+        /* margin-top: 10px;
+        margin-bottom: 50px; */
+    }
+    .exclusive-span{
+        font-size: 0.6rem;
+        /* top: -30px; */
+        /* position: relative; */
+        margin-bottom: 50px;
+        
+    }
+    .exclusive-container{
+        gap: 65px;
+    }
+    .exclusive-card span{
+        font-size: 0.6rem;
+    }
+    .exclusive-card{
+        /* display: flex;
+        flex-direction: column;
+        gap: 30px; */
+    }
+    
+.exclusive-card .black-card{
+   
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8vh;
+
+    /* z-index: 3; */
+}
+
+.black-span{
+    text-align: center;
+    font-size: 0.6rem;
+}
+.exclusive-container{
+   
+    margin-top: 100px;
+}
+
+.rajdarbar h1{
+    font-size: 2rem;
+}
+.rajdarbar img{
+    width: 60vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+  .rajdarbar span{
+    font-size: 0.7rem;
+    margin-bottom: 60px;
+  }
+  .business h1{
+    font-size: 1.3rem;
+  }
+  .business span{
+    font-size: 0.8rem;
+  }
+
+  .legacy img{
+    width: 120px;
+    height: 150px;
+  }
+
+  .legacy-card{
+    font-size: 0.6rem;
+    width: 100px;
+    height: 140px;
+  }
+
+  .legacy .legacy-line{
+    top: 0vh;
+  }
+  .business{
+    margin-bottom: 80px;
+  }
 }

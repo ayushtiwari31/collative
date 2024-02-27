@@ -67,3 +67,18 @@ span{
 .attrium-button:hover{
     cursor: pointer;
 }
+
+@media (max-width: 850px){
+    .attrium-container img{
+        /* height: 90vh; */
+        /* width: 100vw; */
+        position: relative;
+        top: 0vh;
+    }
+    .attrium-card{
+        display: none;
+    }
+    .attrium-container{
+        height: auto;
+    }
+}

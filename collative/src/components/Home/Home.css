@@ -47,7 +47,7 @@
 @media (max-width: 850px){
     .bg{
        width: 100vw;
-       height: 55vh;
+       height: 45vh;
        position: relative;
        z-index: -1;
        top: 0px; 
@@ -55,7 +55,8 @@
 
     .data .text h1{
         font-size: 12px;
-        margin-bottom: 1px;
+        margin-bottom: 0px;
+        margin-top: 10px;
     }
     .data .text span{
         font-size: 6px;
@@ -63,50 +64,21 @@
 
     .data{
         width: 100vw;
-        padding: 1px;
+        padding: 0px;
         top: -50px;
         background-color: black;
         margin-top: 50px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     }
 
 
-    .form{
-        right: 2vw;
-        scale: 0.8;
-        top: 11vh;
+    .form-home{
+        display: none;
     }
 }
 
 
-@media((min-width:100px) and (max-width: 300px)) {
-    .form {
-      top: 10vh;
-       
-    }
-  }
 
 
-@media((min-width:301px) and (max-width: 400px)) {
-    .form {
-        top: 8vh;
-    }
-  }
-
-  @media((min-width:401px) and (max-width: 700px)) {
-    .form {
-        top: 7vh;
-    }
-  }
+ 
   
-  @media((min-width:701px) and (max-width: 830px)) {
-    .form {
-        top: 7vh;
-    }
-  }
-  
-  @media((min-width:831px) and (max-width: 1050px)) {
-    .form {
-        top: 11vh;
-    }
-  }

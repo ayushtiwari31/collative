@@ -5,17 +5,9 @@
     align-items: center;
     margin-top: 300px;
     margin-bottom: 300px;
-    /* background-color: rgb(252, 244, 234); */
     padding: 20px;
     padding-bottom: 30px;
-/*  
-    background-image: url('../../images/bottombg.png');
-   
-   
-    background-size: cover;
-    background-repeat: no-repeat; */
     border: none;
-   
 }
 .bottombg{
     position: absolute;
@@ -46,4 +38,39 @@
     color: black;
     background-color: white;
     border: 1px solid black;
+}
+
+
+@media (max-width: 850px){
+    .bottombg{
+       
+        top: 14px;
+        opacity: 0.8;
+    }
+    .bottom{
+       
+        margin-top: 100px;   
+        margin-bottom: 100px;
+    }
+
+    .bottom-text{
+        margin-top: 1px;
+        font-size: 0.7rem;
+    }
+    .bottom-btn{
+        border-radius: 20px;
+        margin-left: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 0.6rem;
+    }
+    .bottom-btn2{
+        border-radius: 20px;
+        margin-left: 1px;
+        
+        border: 1px solid black;
+       padding: 5px;
+        font-size: 0.6rem;
+    }
+    
 }

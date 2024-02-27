@@ -4,6 +4,7 @@ import './AttriumNavbar.css'
 import logo from '../../images/logo2.png'
 import { Link,NavLink } from "react-router-dom";
 import Poster from '../../images/Poster.jpg'
+import logo1 from '../../images/logo.png'
 
 function AttriumNavbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +12,14 @@ function AttriumNavbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
+  const handleClick=()=>{
+
+    if(isOpen)
+    setIsOpen(false)
+  }
   return (
-    <div className="n-wrapper "  >
+    <div className="n-wrapper " onClick={handleClick}  >
        
         <div className="header header2">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div>
 
@@ -24,8 +31,9 @@ function AttriumNavbar() {
                     <NavLink to='/'>
                          <img src={logo} alt="" className='logo2'/>
                     </NavLink>
-                   
                    </div>
+
+                  
 
                     <li >   
                     <NavLink to="/"   
@@ -82,9 +90,11 @@ function AttriumNavbar() {
 
       <nav className="navbar">
       <div className="navbar-container">
-              <div className="n-name">
-                    <img src={logo} alt="" className='logo'/>
-              </div>
+
+              {/* <div className="n-name-mobile">
+                  <img src={logo1} alt="" className='logo-mobile' />
+              </div> */}
+
         <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
           <div className="bar1"></div>
           <div className="bar2"></div>
@@ -92,33 +102,49 @@ function AttriumNavbar() {
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <li className="nav-item">
-          <Link activeClass="active" to="Home" spy={true} smooth={true} onClick={toggleMenu} className='nav-links'>
-                      Home
-          </Link>
+              <NavLink to="/"   
+                style={({ isActive }) => ({color: isActive ? "orange" : "white",})}
+                >
+                  Home
+                </NavLink>
           </li>
           <li className="nav-item">
-          <Link to="openings" spy={true} smooth={true} onClick={toggleMenu}className='nav-links'>
-                      Openings
-          </Link>
+          <NavLink to="/offerings"
+                style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
+                  Offerings
+                </NavLink>
           </li>
           <li className="nav-item">
-          <Link to="works" spy={true} smooth={true} onClick={toggleMenu} className='nav-links'>
-                        About us
-          </Link>
+          <NavLink to="/about" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
+                    About us
+                </NavLink>
           </li>
           <li className="nav-item">
-          <Link to="contact" spy={true} smooth={true} onClick={toggleMenu} className='nav-links'>
-                        Contact us
-          </Link>
+          <NavLink to="/contact" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
+                    Contact us
+                </NavLink>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
           <Link to="testimonial" spy={true} smooth={true} onClick={toggleMenu} className='nav-links'>
-                        Blogs
+                    Blogs
           </Link>
+          </li> */}
+
+          <li className="nav-item">
+          <NavLink to="/blogs" 
+                style={({ isActive }) => ({color: isActive ? "orange" : "white",})} >
+                    Blogs
+          </NavLink>
           </li>
 
         </ul>
+
+        <div className="n-name-mobile">
+                  <img src={logo1} alt="" className='logo-mobile' />
+              </div>
       </div>
     </nav>
     </div>

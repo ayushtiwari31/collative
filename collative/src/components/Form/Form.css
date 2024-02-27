@@ -99,13 +99,13 @@ height: auto;
     .form{
         padding: 5px;
         margin: 10px;
-        height: 50vh;
+        height: auto;
         /* padding-top: 20px; */
         width: 70vw;
         background-color: white;
     }
-    .form-container {
-        height: 80vh; 
+    .form-box {
+        height: auto; 
     }
 
     .form h1{
@@ -123,17 +123,49 @@ height: auto;
         width: 47.5vw;   
       
     }
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
     
  
 }
 
-
 @media((min-width:100px) and (max-width: 300px)) {
     .form {
-      height: 55vh;
+      height: auto;
       background-color: white;
       width: 60vw; 
     }
+
+    
     .form h1{
         font-size: 1rem;
         width: 55vw;
@@ -148,49 +180,231 @@ height: auto;
         width: 47.5vw;   
        padding: 2px;
     }
-  }
-   
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+} 
 
 @media((min-width:301px) and (max-width: 380px)) {
     .form {
-      height: 60vh;
-      background-color: white;
-       
+      height: auto;
+      background-color: white; 
     }
-  }
+
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
 
   
 @media((min-width:381px) and (max-width: 400px)) {
     .form {
-      height: 55vh;
-      background-color: white;
-       
+      height: auto;
+      background-color: white; 
     }
-  }
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
    
 @media((min-width:410px) and (max-width: 550px)) {
     .form {
-      height: 56vh;
+      height: auto;
       background-color: white;
-       
     }
-  }
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
    
 @media((min-width:551px) and (max-width: 770px)) {
     .form {
-      height: 56vh;
-      background-color: white;
-       
+      height: auto;
+      background-color: white; 
     }
-  }
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
  
   @media((min-width:772px) and (max-width: 1050px)) {
     .form {
-      height: 53vh;
+      height: auto;
       background-color: white;
        
     }
-  }
+    .leftpass{
+      margin-right: 30px;
+    }
+
+    .label{
+      font-size: 0.6rem;
+    }
+    .inputfield{
+      font-size: 0.5rem;
+    }
+
+    .form-box{
+      padding: 15px;
+      padding-left: 25px;
+    }
+    .reactbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .schedule{
+      font-size: 0.8rem;
+      display: flex;
+      padding: 5px;
+      width: 55vw;
+      align-items: center;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+}
 
   
   

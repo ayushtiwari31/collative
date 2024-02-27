@@ -94,12 +94,13 @@
     }
     .sub-heading{
         font-size: 0.8rem;
+        margin-top: 1px;
     }
 
     .explore img{
        
-        width: 70vw;
-        height: 35vh;
+        width: 80vw;
+        height: 25vh;
         margin: 10px;
         opacity: 2;
     }
@@ -107,12 +108,18 @@
     .line{
         display: none;
     }
+    .explore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
     
 .sixth{
    
-    width: 60vw;
-    height: 35vh;
+    width: 80vw;
+    height: 25vh;
     margin: 10px;
     margin-left: 10vw;
     margin-left: -0vw;
@@ -120,9 +127,9 @@
 
 .sixth .img6l{
    left: 2vw;
-    width: 35vw;
-    
-    height: 35vh;
+    width: 37vw;
+    height: 25vh;
+    margin-right: 20px;
    
 }
 
@@ -130,10 +137,27 @@
    
     
     right: 2vw;
-    width: 35vw;
-    height: 35vh;
+    width: 37vw;
+    height: 25vh;
 
 }
+
+
+.managed{
+    position: relative;
+    left: 0px;
+}
+
+.meeting-room{
+    position: relative;
+    left: 0px;
+}
+
+.interview-room{
+    position: relative;
+    left: 0px;
+}
+
 
     
 

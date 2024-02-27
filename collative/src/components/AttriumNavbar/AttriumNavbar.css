@@ -30,7 +30,7 @@
         width: 100vw;
         color: black;
         box-shadow: 0 10px 10px rgba(0,0,0,0.3);
-    
+        
     }
     .attrium-navbar{
         background-color: white;
@@ -42,6 +42,10 @@
         margin-right: 220px;
         margin-left: 50px;
         list-style: none;
+    }
+
+    .nav-menu a{
+      text-decoration: none;
     }
     
     .n-rights ul li{
@@ -82,24 +86,54 @@
         z-index: 10;
     }
     
-    
+    .logo{
+      display: none;
+    }
     
     
     /* Responsive Code */
     /* Navbar.css */
-    @media (max-width: 850px) {
+
+
+
+    @media (max-width: 850px){
+
+
+      .attrium-navbar{
+        display: none;
+        /* margin-right: 100px; */
+        
+      }
+
+      .logo-mobile{
+        width: 50vw;
+        margin-right: 40px;
+      }
+
+      /* .logo{
+        display: block;
+      } */
+
     
-        .n-wrapper{
+      .n-name{
+        display: none;
+      }
+
+
+      .n-wrapper{
             width: 100vw;
             background-color: black;
-        }
-        .header{
+      }
+
+      .header{
+
             font-size: 10px;
             height: 12px;
             padding: 2px;
             width: 100vw;
             background-color: rgb(254, 254, 255);
-        }
+
+      }
         
         .n-right .n-name{
             position: absolute;
@@ -107,7 +141,6 @@
              left: 40px;
             scale: 0.6;
             margin-right: 1px;
-    
         }
     
         .n-right ul li{
@@ -196,6 +229,7 @@
         display: none;
         flex-direction: column;
         cursor: pointer;
+        margin-left: 20px;
       }
       
       .menu-icon.open .bar1 {
@@ -219,6 +253,7 @@
         .navbar{
             display:flex;
             align-items: center;
+            /* position: fixed; */
         }
     
         .n-right{
@@ -267,9 +302,9 @@
       
         .bar1, .bar2, .bar3 {
           width: 25px;
-          height: 3px;
-          background-color: #fff;
-          margin: 5px;
+          height: 2px;
+          background-color: #cecccc;
+          margin: 3px;
           transition: all 0.3s ease;
         }
       }

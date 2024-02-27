@@ -27,7 +27,10 @@
 /* resonsive code */
 @media (max-width: 850px){
     .sub-heading{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .heading{
+        font-size: 1.4rem;
     }
 
     .container{

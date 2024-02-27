@@ -29,3 +29,31 @@
 .features-card:hover{
     cursor: pointer;
 }
+
+@media (max-width: 850px){
+    .features h1{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .features span{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    .features-card{
+        align-items: center;
+        
+    }
+    .features-card img{
+        box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    }
+    .features-card span{
+        font-size: 0.7rem;
+        font-weight: 400;
+        position: relative;
+        left: -10px;
+    }
+    .features-container{
+        gap: 50px;
+        margin-top: 50px;
+    }
+}

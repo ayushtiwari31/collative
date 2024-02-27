@@ -1,12 +1,35 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Home.css'
 import bg from '../../images/collative.jpeg'
 import Form from '../Form/Form.jsx'
 
 function Home() {
+    const [isMobile, setIsMobile] = useState(false);
+    
+    useEffect(() => {
+
+        function handleResize() {
+          setIsMobile(window.innerWidth < 600); // Example threshold, adjust as needed
+        }
+    
+        // Initial check
+        handleResize();
+    
+        // Event listener for window resize
+        window.addEventListener('resize', handleResize);
+    
+        // Cleanup function
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
+
   return (
     <div className="home" id ="Home">
-        <Form className="form"/>
+
+        {!isMobile ? <Form className="form-home"/>:<></>}
+        
         <img src={bg} alt="" className='bg' />
         <div className="data">
             <div className="text">

@@ -9,6 +9,7 @@ import Page4 from './Pages/Page4.jsx'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 import Layout from './components/Layout/Layout.jsx'
+import Page5 from './Pages/Page5.jsx'
 
 
 const router=createBrowserRouter([
@@ -31,6 +32,10 @@ const router=createBrowserRouter([
       {
         path:'/contact',
         element:<Page4/>
+      },
+      {
+        path:'/blogs',
+        element:<Page5/>
       },
 
     ]

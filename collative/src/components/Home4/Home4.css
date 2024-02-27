@@ -1,0 +1,22 @@
+.home4{
+    margin-top: 100px;
+    /* box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5); */
+}
+.co-btn{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.co-working{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.co-working h1{
+  margin-right: 39vw;
+  margin-bottom: 50px;
+  font-weight: bolder
+}
