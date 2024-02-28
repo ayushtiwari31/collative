@@ -208,7 +208,7 @@ right: -45px;
 @media (max-width: 850px){
 
     .explore-card{
-        width: 90vw;
+        width: 80vw;
     }
     .explore-container .explore-right  img{
         display: none;
@@ -299,6 +299,29 @@ right: -45px;
 
 .explore-mobile-contaier .explore-card{
     box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+}
+
+.explore-mobile-contaier .explore-card h2{
+    font-size: 1rem;
+}
+.explore-mobile-contaier .explore-card{
+    z-index: -1;
+}
+
+
+.explore-mobile-contaier .explore-card span{
+    font-size: 0.7rem;
+}
+
+.explore-mobile-contaier .explore-card .inner-explore span{
+    font-size: 0.6rem;
+}
+
+.explore-mobile-contaier .explore-card li{
+    font-size: 0.7rem;
+}
+.explore-mobile-contaier .explore-card h4{
+    font-size: 0.9rem;
 }
 
 

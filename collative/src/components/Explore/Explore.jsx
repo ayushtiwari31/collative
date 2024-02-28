@@ -306,6 +306,8 @@ function Explore() {
         </>
         }
 
+
+
         {
             isMobile &&
             <>
@@ -325,7 +327,7 @@ function Explore() {
             <ul>
                 <li>Enclosed Spaces for High Productivity</li>
                 <li>Ergonomic Seating & First-Class Connectivity</li>
-                <li>Accompanied with Top-Notch Facilities like Storage Drawers, WiFi, etc.</li>
+                <li>Accompanied with Top-Notch Facilities like Storage &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Drawers, WiFi, etc.</li>
                 <li>Card Secured Entrance & Sound-Proof Cabin Doors</li>
             </ul>
             </div>
@@ -363,7 +365,7 @@ function Explore() {
             <ul>
                 <li>FEnclosed Spaces for High Productivity</li>
                 <li>Ergonomic Seating & First-Class Connectivity</li>
-                <li>Accompanied with Top-Notch Facilities like Storage Drawers, WiFi, etc.</li>
+                <li>Accompanied with Top-Notch Facilities like Storage&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Drawers, WiFi, etc.</li>
                 <li>Card Secured Entrance & Sound-Proof Cabin Doors</li>
             </ul>
             </div>
@@ -382,11 +384,10 @@ function Explore() {
             <ul>
                 <li>Available for Members & Non-Members</li>
                 <li>Reservation Services Available</li>
-                <li>Equipped with State-Of-The-Art Technology – LCD Screens, Advanced <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Connection System, Exclusive Audiovisuals, etc.</li>
+                <li>Equipped with State-Of-The-Art Technology – LCD &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Screens.</li>
                 <li>Available for Immediate Setup</li>
             </ul>
             </div>
-
 
             <div className="explore-card">
             <h2>Interview Room</h2>
@@ -402,7 +403,7 @@ function Explore() {
             <ul>
                 <li>Enclosed Spaces for High Productivity</li>
                 <li>Ergonomic Seating & First-Class Connectivity</li>
-                <li>Accompanied with Top-Notch Facilities like Storage Drawers, WiFi.</li>
+                <li>Accompanied with Top-Notch Facilities like Storage&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Drawers, WiFi.</li>
                 <li>Card Secured Entrance & Sound-Proof Cabin Doors</li>
             </ul>
             </div>

@@ -127,11 +127,7 @@ function AttriumNavbar() {
                 </NavLink>
           </li>
 
-          {/* <li className="nav-item">
-          <Link to="testimonial" spy={true} smooth={true} onClick={toggleMenu} className='nav-links'>
-                    Blogs
-          </Link>
-          </li> */}
+      
 
           <li className="nav-item">
           <NavLink to="/blogs" 
