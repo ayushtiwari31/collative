@@ -315,6 +315,9 @@ right: -45px;
 
 .explore-mobile-contaier .explore-card .inner-explore span{
     font-size: 0.6rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 25vw;
 }
 
 .explore-mobile-contaier .explore-card li{
@@ -324,6 +327,16 @@ right: -45px;
     font-size: 0.9rem;
 }
 
+.explore-mobile-contaier .explore-card ul {
+    list-style:disc;
+    position: relative;
+    left: -30px;
+    margin-left: 5px;
+  }
+.explore-card ul li:before{
+    
+    display: none;
+}
 
     
 
