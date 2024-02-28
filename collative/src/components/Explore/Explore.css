@@ -304,8 +304,9 @@ right: -45px;
 .explore-mobile-contaier .explore-card h2{
     font-size: 1rem;
 }
-.explore-mobile-contaier .explore-card{
-    z-index: -1;
+.explore-mobile-contaier {
+    z-index: -10;
+   
 }
 
 

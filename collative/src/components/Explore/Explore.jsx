@@ -310,7 +310,7 @@ function Explore() {
 
         {
             isMobile &&
-            <>
+            <div>
             <div className="explore-mobile-contaier">
 
             <div className="explore-card">
@@ -454,7 +454,7 @@ function Explore() {
 
             </div>
 
-            </>
+            </div>
         }
 
       

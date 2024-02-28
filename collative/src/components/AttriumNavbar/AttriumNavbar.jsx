@@ -101,6 +101,7 @@ function AttriumNavbar() {
           <div className="bar3"></div>
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
+          
           <li className="nav-item">
               <NavLink to="/"   
                 style={({ isActive }) => ({color: isActive ? "orange" : "white",})}
