@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
-import { Formik, Form, Field, ErrorMessage } from 'formik';
-import * as yup from "yup";
+// import { Formik, Form, Field, ErrorMessage } from 'formik';
+// import * as yup from "yup";
 import './Form.css'
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
@@ -78,7 +78,7 @@ function myForm(){
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
 
     const onSubmit= async (data) => {
-       
+       console.log(data);
     //     console.log(data)
     //     const formData = new FormData();
     //     formData.append('category', data.category);

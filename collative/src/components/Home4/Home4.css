@@ -20,3 +20,121 @@
   margin-bottom: 50px;
   font-weight: bolder
 }
+
+
+
+.home4-cards{
+    display: flex;
+    gap: 200px;
+    width: 100vw;
+    align-items: center;justify-content: center;
+    margin-top: 100px;
+}
+.home4-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-container{
+    display: flex;
+    gap: 100px;
+}
+.form2{
+    width: 50vw;
+    background-color: #F4F4F4;
+    position: relative;
+    align-items: center;
+}
+.form2 h5{
+    position: relative;
+    top: -20px;
+}
+.home4-form{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form2 select{
+    width: 8vw;
+    padding: 7px;
+    border: none;
+}
+.form2-btn{
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+
+/* QUESTIONS  */
+
+.questions{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions h2{
+    text-align: center;
+}
+.questions span{
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.faq-question{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.faq-item:hover{
+    cursor: pointer;
+}
+
+.faq-answer{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60vw;
+    padding: 10px;
+    padding-left: 0px;
+    position: relative;
+    color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.faq-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.active-item{
+    background-color: #F4F4F4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+border: 2px solid rgb(57, 57, 57);
+margin-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
