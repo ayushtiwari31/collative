@@ -69,6 +69,7 @@ function Home3() {
         </div>
 
         <div className="map">
+            <h1>Visit Us!</h1>
             {/* <img src={map} className='mapped' alt=""  /> */}
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.2108262075797!2d77.22283900497052!3d28.52211738128363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d520d135649%3A0x7c19f8b66306bf90!2sCollative%20-%20Coworking%20Space%20in%20South%20Delhi!5e0!3m2!1sen!2sin!4v1708971571892!5m2!1sen!2sin"  className='collative-map'></iframe>
         </div>

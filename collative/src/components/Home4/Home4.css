@@ -138,3 +138,46 @@ margin-bottom: 10px;
 padding-left: 10px;
 padding-right: 10px;
 }
+
+@media (max-width: 850px){
+    .co-working h1{
+        margin-left: 120px;
+        width: 80vw;
+        font-size: 1.3rem;
+    }
+    .co-working{
+        position: relative;
+        top: -50px;
+    }
+    .home4-card-container2 {
+        display: none
+    }
+
+    .home4-form {
+        position: relative;
+        margin-bottom: 100px;
+        display: none;
+    }
+    .questions{
+        margin-top: 50px;
+        /* padding: 10px; */
+    }
+    .questions span{
+        font-size: 0.7rem;
+    }
+    .questions h1{
+        font-size: 1.4rem;
+    }
+    .faq-question{
+        font-size: 1rem;
+    }
+
+    .faq-item{
+        width: 90vw;
+    }
+    .faq-answer{
+        padding: 5px;
+        width: 80vw;
+    }
+    
+}

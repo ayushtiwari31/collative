@@ -54,3 +54,17 @@
     font-size: 0.7rem;
 }
 
+@media (max-width: 850px){
+    .home4-card{
+        width: 70vw;
+    }
+
+    .home4-card img{
+        width: 70vw;
+    }
+    .card-bottom-right button{
+        width: 20vw;
+    }
+
+}
+

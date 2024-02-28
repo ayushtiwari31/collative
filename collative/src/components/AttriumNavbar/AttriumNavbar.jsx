@@ -21,7 +21,7 @@ function AttriumNavbar() {
   return (
     <div className="n-wrapper " onClick={handleClick}  >
        
-        <div className="header header2">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div>
+        {/* <div className="header header2">Unrivalled workspace. Great discounts. 25% off. *T&C apply*</div> */}
 
         <div className="n-rights attrium-navbar">
 
@@ -144,7 +144,7 @@ function AttriumNavbar() {
 
         <div className="n-name-mobile">
                   <img src={logo1} alt="" className='logo-mobile' />
-              </div>
+        </div>
       </div>
     </nav>
     </div>

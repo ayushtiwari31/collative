@@ -107,7 +107,7 @@
 
       .logo-mobile{
         width: 50vw;
-        margin-right: 40px;
+        margin-right: 60px;
       }
 
       /* .logo{
@@ -254,32 +254,30 @@
             display:flex;
             align-items: center;
             /* position: fixed; */
+            /* background-color: rgb(238, 237, 237); */
         }
     
         .n-right{
             display: none;
         }
-    /* 
-        .navbar-container{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        } */
+   
+        
     
     
         .nav-menu {
           flex-direction: column;
           align-items: flex-end;
-           padding-right: 20px;
-          width: 20vw;
+          padding-right: 20px;
+          width: 10vw;
           height: 100vh;
           position: absolute;
-          top: 80px;
+          top: 60px;
           left: -100%;
           opacity: 0;
           justify-content: flex-start ;
           transition: all 0.5s ease;
-          background-color: #343434;
+          /* background-color: #343434; */
+          background-color: #0d0d0d;
           
         }
       
@@ -292,7 +290,7 @@
         }
       
         .nav-item {
-          /* margin-bottom: 20px; */
+          
           margin-top: 20px;
         }
       

@@ -76,7 +76,7 @@ function Home4() {
           <Home4Card photo={nehruplace} title={"Smartworks Nehru Place"} location={"Nehru Place, New Delhi"} />
           </div>
 
-          <div className="home4-card-container">
+          <div className="home4-card-container home4-card-container2 ">
           <Home4Card photo={nehruplace} title={"Smartworks Nehru Place"} location={"Nehru Place, New Delhi"} />
           <Home4Card photo={nehruplace} title={"Smartworks Nehru Place"} location={"Nehru Place, New Delhi"} />
           <Home4Card photo={nehruplace} title={"Smartworks Nehru Place"} location={"Nehru Place, New Delhi"} />
@@ -196,7 +196,7 @@ function Home4() {
         </div>
 
 
-        <div className='questions'>
+      <div className='questions'>
       <h1>Frequently Asked Questions</h1>
       <span>
       Our FAQ page has answers to many common questions. If you are <br/>looking for more information, please check it out.
